@@ -1,6 +1,6 @@
 from telethon import Button, events
 
-from sbb_b import sbb_b
+from jmthon import jmthon
 
 from ..Config import Config
 
