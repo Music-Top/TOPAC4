@@ -1,0 +1,33 @@
+{
+  "name": "jmthon bot ",
+  "description": "simple bot based in telethon ",
+  "env": {
+    "API_ID": {
+      "description": "الايبب ايدي",
+      "value": "14739610"
+    },
+    "TZ": {
+      "description": "هنا ضع المنطقه الزمنيه الخاص بك القارة والمحافظه- اذا كنت من العراق او السعوديه لا تغيرها",
+      "value": "Asia/Baghdad"
+    },
+    "BIO": {
+      "description": "بايو حسابك - نبذه حسابك ",
+      "value": "الحمد لله دائماً وابداً ⇦♡ 𝑆𝐻 : @OYOYV للمحضورين : @TOP_BBOT"
+    },
+    "API_HASH": {
+      "description": "الايبي هاش",
+      "value": "4bb54a9de1d7b5570ccae74c2689f223"
+    },
+    "STRING_SESSION": {
+      "description": "كود تيرمكس",
+      "value": "1ApWapzMBu0-LRqoTqtMHcHn1voxK8lH8D109oko68u4WuESm6C7LNIQJ73mek5m06ssTw-xTPSOHVC_og6fUqFASYALaykrvF13k3OFqmLIwcpOQWq-XKVoAsE9UXISLjOZd_bC5sYUeofiG7njmyu6bNANpzpgs89SOSitQMZL6l90vwLcS4Yq3sYTK_i8RxK_S-jZcAJYo-Evh89VowqU8hVDyB4pczgbwrZhdmOjXHpaFPvFqPi7ce06mFyNAe1f_7W6vzwGUUaiXMBkYjSWUxAsgnlXE1JhrHDsgMkfgHthjLSy_fHPN6UzCQlxZk76t3QQWW40QkkfpiXT_q7zOCRk-5Iw="
+    }
+  },
+  "addons": [{
+    "plan": "heroku-postgresql",
+    "options": {
+      "version": "12"
+    }
+  }],
+  "buildpacks": [{"url": "heroku/python"}]
+}
