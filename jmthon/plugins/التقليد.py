@@ -1,4 +1,4 @@
-from sbb_b import sbb_b
+from jmthon import jmthon
 
 from ..core.managers import edit_delete, edit_or_reply
 from ..sql_helper.echo_sql import (
