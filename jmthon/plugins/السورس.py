@@ -4,7 +4,7 @@ from sbb_b import sbb_b
 
 from ..Config import Config
 
-ROZ_PIC = "https://telegra.ph/file/5f6ef13851dcf0d6fc72b.jpg"
+ROZ_PIC = "https://telegra.ph/file/44b85bd9fcdf47677d551.mp4"
 RAZAN = Config.TG_BOT_USERNAME
 ROZ_T = (
     f"**⌯︙بوت جمثـون يعمل بنجاح 🤍،**\n"
@@ -26,8 +26,8 @@ if Config.TG_BOT_USERNAME is not None and tgbot is not None:
         if query.startswith("السورس") and event.query.user_id == bot.uid:
             buttons = [
                 [
-                    Button.url("قنـاة السـورس ⚙️", "https://t.me/jmthon"),
-                    Button.url("المطـور 👨🏼‍💻", "https://t.me/RR77R"),
+                    Button.url("قنـاة السـورس ⚙️", "https://t.me/OYOYV"),
+                    Button.url("المطـور 👨🏼‍💻", "https://t.me/IIIT5"),
                 ]
             ]
             if ROZ_PIC and ROZ_PIC.endswith((".jpg", ".png", "gif", "mp4")):
@@ -57,9 +57,9 @@ async def repo(event):
     RR7PP = Config.TG_BOT_USERNAME
     if event.reply_to_msg_id:
         await event.get_reply_message()
-    response = await bot.inline_query(RR7PP, "السورس")
+    response = await bot.inline_query(OYOYV, "السورس")
     await response[0].click(event.chat_id)
     await event.delete()
 
 
-# edit by ~ @RR77R
+# edit by ~ @Iiit5
