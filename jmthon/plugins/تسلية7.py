@@ -2,7 +2,7 @@ import os
 
 from telegraph import exceptions, upload_file
 
-from sbb_b import sbb_b
+from jmthon import jmthon
 
 from ..core.managers import edit_or_reply
 from ..helpers.utils import _sbb_btools, reply_id
