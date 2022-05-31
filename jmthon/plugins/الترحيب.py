@@ -1,6 +1,6 @@
 from telethon import events
 
-from sbb_b import sbb_b
+from jmthon import jmthon
 from sbb_b.core.logger import logging
 
 from ..core.managers import edit_delete, edit_or_reply
