@@ -1,7 +1,7 @@
 import asyncio
 from collections import deque
 
-from . import edit_delete, edit_or_reply, sbb_b, mention
+from . import edit_delete, edit_or_reply, imthon, mention
 
 plugin_category = "fun"
 
