@@ -1,6 +1,6 @@
 import asyncio
 
-from sbb_b import sbb_b
+from jmthon import jmthon
 
 from ..core.managers import edit_or_reply
 from ..helpers.utils import _format
