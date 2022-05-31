@@ -1,7 +1,7 @@
 import asyncio
 from collections import deque
 
-from . import edit_or_reply, sbb_b
+from . import edit_or_reply, imthon
 
 
 @jmthon.on(pattern="غبي$")
