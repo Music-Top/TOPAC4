@@ -1,6 +1,6 @@
 import re
 
-from sbb_b import sbb_b
+from jmthon import jmthon
 
 IF_EMOJI = re.compile(
     "["
