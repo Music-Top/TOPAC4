@@ -1,4 +1,4 @@
-# WRITED BY - @VUUZZ - @RR7PP
+
 
 import io
 import os
