@@ -47,11 +47,7 @@ jmthon.start()
 jmthon.loop.create_task(saves())
 
 print("➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖")
-print("تم الان بنجاح اكتمال تنصيب بوت تبثون !!!")
-print(
-        
-        \n اذا احتجت مساعده اذهب الى مجموعه https://t.me/G1GGI"
-    )
+print("تم الان بنجاح اكتمال تنصيب بوت تبثون ")
 print("➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖")
 
 jmthon.run_until_disconnected()
